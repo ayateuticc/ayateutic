@@ -23,7 +23,7 @@
       text-align: center;
     }
    header {
-      background-color: #d4ad93;
+      background-color: #5777b4;
       color: rgb(0, 0, 0);
     }
     header h1 {
@@ -76,7 +76,7 @@
       margin-top: 20px;
     }
     body {
-  background: linear-gradient(rgba(207, 183, 176, 0.8), rgba(206, 181, 167, 0.8)),  
+  background: linear-gradient(rgba(209, 229, 255, 0.8), rgba(193, 248, 232, 0.8)),  
               url('background.png') no-repeat center center fixed;
   background-size: cover;
   color: #333;
@@ -334,7 +334,7 @@ ul.checklist li::before {
 
 <script>
 let count = 0;
-let target = 30250 ; // Jumlah member real/tampilan
+let target = 40210 ; // Jumlah member real/tampilan
 let speed = 2;
 let counter = document.getElementById("counter");
 
@@ -373,7 +373,7 @@ updateCounter();
         spread: 70,
         origin: { y: 0.6 }
       });
-    }, 3300);
+    }, 4000);
   });
 </script>
 
@@ -405,16 +405,61 @@ Untuk info lebih lengkap akan di jelaskan setelah FIX GABUNG 😇</p>
     </div>
   </section>
   </section>
+
 <section>
   <h2 class="section-title">Promo Join Hari Ini 🔥</h2>
   <div style="font-size: 1.5rem; margin-bottom: 10px;">
     <span style="text-decoration: line-through; color: #000000;">Rp250.000</span>
-    <span style="color: #d9534f; font-weight: bold;"> Rp65.000 </span>
+    <span class="tebal-bara"> 🔥Rp65.000 </span>
   </div>
   <div style="font-size: 1.2rem; color: #07180b; font-weight: bold;">
     💥 Diskon 75% untuk 10 orang pertama!
   </div>
 </section>
+
+<style>
+  .tebal-bara {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #8f3434;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-shadow:
+      0 0 4px #ff0000,
+      0 0 8px #ff5500,
+      0 0 12px #ffaa00,
+      0 0 18px #ff6600,
+      0 0 24px #cc2200;
+    animation: baraGlow 0.8s infinite alternate;
+  }
+
+  @keyframes baraGlow {
+    0% {
+      text-shadow:
+        0 0 3px #660000,
+        0 0 6px #990000,
+        0 0 10px #cc3300,
+        0 0 14px #ff5500,
+        0 0 18px #ffaa00;
+    }
+    100% {
+      text-shadow:
+        0 0 6px #ff0000,
+        0 0 12px #ff3300,
+        0 0 18px #ff6600,
+        0 0 24px #ffaa00,
+        0 0 30px #ffcc66;
+    }
+  }
+</style>
+
+
+
+
+
+
+
+
 
 
 <section>
